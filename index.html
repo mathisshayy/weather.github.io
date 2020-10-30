@@ -9,10 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css"/>
     <title>Document</title>
-    <script src="index.js"></script>
-    <script src= "https://code.jquery.com/jquery-3.5.1.min.js"></script>
   </head>
   <body>
+    
        <!-- Image and text -->
 <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="#">
@@ -27,14 +26,20 @@
             </div>
             <div class="card-body">
               <h5 class="card-title">Check The Temp!</h5>
-              <p class="card-text">Before You Travel</p>
-              <input type="text" id="searchUser" class="form-control" placeholder="Location">
+              <p class="card-text">Before You Go Out</p>
+              
               <a href="#" class="btn btn-primary">Get Weather</a>
             </div>
             <br>
-            <div id="profile"></div>
+            <div class="location"></div>
+            <div class="weather"></div>  
+            <br>
+            <div class="description"></div>
+            <h1 class="temp"></h1>
+            <div class="type"></div>
+            <div class="temp-type"></div>
         </div>
-        <div id="content">
+      
 
         </div><div class="card">
           <div class="card-header">
@@ -47,5 +52,7 @@
             </blockquote>
           </div>
         </div>
+        <script src= "https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="index.js"></script>
   </body>
 </html>
